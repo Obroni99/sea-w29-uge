@@ -34,7 +34,7 @@ ls -t
 ls -s
 c ..
 cd ~/Documents
-cd 
+cd
 git config --global user.email
 user.email ''
 user.email
@@ -105,7 +105,7 @@ man man
 fb Ba
 fb blue
 man
-touch 
+touch
 mkdir -pv
 mkdir
 ~Documents
@@ -118,7 +118,7 @@ ls
 /jquery-1.11.3.min.js > trialjquery.txt
 cd Documents/Projects/javascript/
 ls moving-around.txt
-subli moving_around.txt 
+subli moving_around.txt
 ls -t
 cd ..
 cd documents
@@ -153,7 +153,7 @@ ls -lt
 ls -s
 c ..
 cd ~/Documents
-cd 
+cd
 git config --global user.email
 user.email ''
 user.email
@@ -224,7 +224,7 @@ man man
 fb Ba
 fb blue
 man
-touch 
+touch
 mkdir -pv
 mkdir
 ~Documents
