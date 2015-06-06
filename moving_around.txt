@@ -65,6 +65,7 @@ ln -s /Applications/Sublime\ Text 2.app/Contents/SharedSupport/bin/subl /usr/loc
 ln -s /Applications/Sublime\ Text
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 which fish
+#homebrew fish info
 brew info fish
 brew in
 fish_update_completions
@@ -225,13 +226,39 @@ ls -l documents
 ls ~
 ls -s ~
 man man
-fb Ba
-fb blue
-man
-touch
 mkdir -pv
 mkdir
 ~Documents
 cd ~Documents
 cd /Users/jeffreycooper/Documents
 ls-l~
+git branch
+git commit -m "Add comment about displaying hidden files."
+
+#changes branch to git-notes
+git checkout git-notes
+
+#creates a new branch called git-notes
+git branch git-notes
+
+#shows the what the new changes are
+git diff
+
+#shows the state files are in. e.g. ready to commit
+git status
+
+#adds file to stage
+git add moving_around.txt
+
+
+history
+git commit -m "Add some spaces"
+git diff moving_around.txt
+git commit -m "Add change to back 2 levels"
+ls
+git commit -m "Add initial version of moving around."
+cd ..
+cd .git
+ls -a
+git init
+
