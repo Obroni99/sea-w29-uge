@@ -25,6 +25,10 @@ cd documents
 cd Applications
 LS
 ls -R
+
+
+
+
 ls -r
 ls -Sl
 man ls
