@@ -26,8 +26,8 @@ cd Applications
 LS
 ls -R
 
-
-
+#Display hidden files and hidd folders
+ls -a
 
 ls -r
 ls -Sl
